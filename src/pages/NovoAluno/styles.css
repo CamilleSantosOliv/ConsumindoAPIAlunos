@@ -1,0 +1,33 @@
+.novo-aluno-container{
+    width: 100%;            /* Define a largura como 100% */
+    background-color: #f4f4f9; /* Cor de fundo suave */
+    padding: 20px;          /* Espaçamento interno */
+    gap: 20px; /*espaçamento entre os itens*/
+    flex-direction: column; /* alinha os itens verticalmente */
+}
+
+.novo-aluno-card {
+    background-color: #ffffff; /* Cor de fundo do card */
+    border-radius: 8px;        /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar o card */
+    padding: 20px;            /* Espaçamento interno */
+    max-width: 600px;         /* Define uma largura máxima */
+    width: 100%;              /* Faz o card se ajustar ao container */
+    text-align: center;       /* Centraliza o texto dentro do card */
+}
+
+h1 {
+    color: #7659a8;
+    margin-left: 15px;
+}
+
+.alinhar {
+    display: flex;              /* Alinha os elementos em linha */
+    width: 100%;                /* Define largura total */
+}
+
+.alinhar-start{
+    justify-content: start;
+    display: flex;
+    margin-top: 10px;
+}
